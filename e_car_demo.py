@@ -1,12 +1,12 @@
 # This program demonstrates the Car class.
 
-import vehicles
+import e_vehicles as v
 
 def main():
     # Create an object from the Car class.
     # The car is a 2007 Audi with 12,500 miles, priced
     # at $21,500.00, and has 4 doors.
-    used_car = vehicles.Car('Audi', 2007, 12500, 21500.00, 4)
+    used_car = v.Car('Audi', 2007, 12500, 21500.00, 4)
 
     # Display the car's data.
     print('Make:', used_car.get_make())

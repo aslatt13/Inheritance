@@ -28,7 +28,7 @@ class Dog(Mammal):
     # __init__ method passing 'Dog' as the species.
     
     def __init__(self):
-        Mammal.__init__(self, 'Dog')
+        Mammal.__init__(self, 'Dawg')
 
     # The make_sound method overrides the superclass's
     # make_sound method.
@@ -44,7 +44,7 @@ class Cat(Mammal):
     # __init__ method passing 'Cat' as the species.
 
     def __init__(self):
-        Mammal.__init__(self, 'Cat')
+        Mammal.__init__(self, 'PP')
 
     # The make_sound method overrides the superclass's
     # make_sound method.
